@@ -6,7 +6,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ianzepp.appenda</groupId>
-  <artifactId>appenda-bean</artifactId>
+  <artifactId>appenda-bundle</artifactId>
   <packaging>php</packaging>
   <version>1.0-SNAPSHOT</version>
   <dependencies>
