@@ -32,32 +32,25 @@ global $_ARGUMENTS, $_PARAMS, $argv;
 $_ARGUMENTS = array ();
 $_PARAMS = array ();
 
-while ($argv)
-{
+while ($argv) {
 	$argument = array_shift ($argv);
 	$matches = array ();
 	
-	if (preg_match ('/^--([^\s=]+)(=(.+))?$/', $argument, $matches))
-	{
+	if (preg_match ('/^--([^\s=]+)(=(.+))?$/', $argument, $matches)) {
 		$_ARGUMENTS [$matches [1]] = $matches [3];
-	}
-	else
-	{
+	} else {
 		$_PARAMS [] = $argument;
 	}
 }
 
-
 /** Validate the script arguments */
 global $_ARGUMENTS;
 
-if (!$_ARGUMENTS ["beanConfig"])
-{
+if (!array_key_exists ("beanConfig", $_ARGUMENTS)) {
 	exit ("Missing required argument: --beanConfig");
 }
 
-if (!$_ARGUMENTS ["bean"])
-{
+if (!array_key_exists ("bean", $_ARGUMENTS)) {
 	exit ("Missing required argument: --bean");
 }
 

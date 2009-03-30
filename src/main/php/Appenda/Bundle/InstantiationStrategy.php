@@ -27,9 +27,9 @@
  * @package 
  */
 
-require_once "Appenda/Bundle/Definition/Root.php";
+require_once "Appenda/Bundle/Definition.php";
 require_once "Appenda/Bundle/Factory.php";
 
 interface Appenda_Bundle_InstantiationStrategy {
-	public function instantiate (Appenda_Bundle_Definition_Root $beanDefinition, $beanName, Appenda_Bundle_Factory $owner);
+	public function instantiate (Appenda_Bundle_Definition $beanDefinition, $beanName, Appenda_Bundle_Factory $owner);
 }
