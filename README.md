@@ -8,14 +8,14 @@ Appenda is a collection of Object-Oriented PHP classes built along the Zend PHP 
 
 Appenda provides both a core package, and several sample service bundles. Appenda also integrates with both Maven and Zend to leverage the beauty of Maven dependency management.
 
-http://code.google.com/p/ianzepp/source/browse/trunk/appenda-base-datasource Appenda Base, Data Source API (very rough)
+https://github.com/ianzepp/appenda-base-datasource Appenda Base, Data Source API (very rough)
 
-http://code.google.com/p/ianzepp/source/browse/trunk/appenda-base-message Appenda Base, Messaging
+https://github.com/ianzepp/appenda-base-message Appenda Base, Messaging
 
-http://code.google.com/p/ianzepp/source/browse/trunk/appenda-base-property Appenda Base, Property / Attribute Management
+https://github.com/ianzepp/appenda-base-property Appenda Base, Property / Attribute Management
 
-http://code.google.com/p/ianzepp/source/browse/trunk/appenda-bundle-account Appenda Service Bundle, Account Management
+https://github.com/ianzepp/appenda-bundle-account Appenda Service Bundle, Account Management
 
-http://code.google.com/p/ianzepp/source/browse/trunk/appenda-bundle-logging Appenda Service Bundle, Logging
+https://github.com/ianzepp/appenda-bundle-logging Appenda Service Bundle, Logging
 
-http://code.google.com/p/ianzepp/source/browse/trunk/appenda-bundle-session Appenda Service Bundle, Sessions
+https://github.com/ianzepp/appenda-bundle-session Appenda Service Bundle, Sessions
